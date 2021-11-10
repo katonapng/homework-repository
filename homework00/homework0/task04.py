@@ -8,6 +8,7 @@ Given four lists A, B, C, D of integer values,
 We guarantee, that all A, B, C, D have same length of N where 0 ≤ N ≤ 1000.
 """
 from collections import defaultdict
+from itertools import product
 from typing import List
 
 
@@ -16,16 +17,14 @@ def check_sum_of_four(a: List[int],
                       c: List[int],
                       d: List[int]) -> int:
     hash_map = defaultdict()
-    for a_item in a:
-        for b_item in b:
-            if a_item + b_item not in hash_map:
-                hash_map[a_item + b_item] = 1
-            else:
-                hash_map[a_item + b_item] += 1
+    for a_item, b_item in product(a, b):
+        if a_item + b_item not in hash_map:
+            hash_map[a_item + b_item] = 1
+        else:
+            hash_map[a_item + b_item] += 1
 
     res = 0
-    for c_item in c:
-        for d_item in d:
-            if -(c_item + d_item) in hash_map:
-                res += hash_map[-(c_item + d_item)]
+    for c_item, d_item in product(c, d):
+        if -(c_item + d_item) in hash_map:
+            res += hash_map[-(c_item + d_item)]
     return res
