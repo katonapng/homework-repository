@@ -9,6 +9,7 @@ Examples:
     nums = [1, 3, -1, -3, 5, 3, 6, 7], k = 3
     result = 16
 """
+from functools import reduce
 from typing import List
 
 """ Find a sub-array with length less or equal to "k" """
@@ -20,13 +21,11 @@ def find_maximal_subarray_sum(nums: List[int], k: int) -> int:
 
     res = 0
     for j in range(1, k + 1):
-        sum = 0
-        for i in range(j):
-            sum += nums[i]
+        sum_value = reduce(lambda x, y: x + y, nums[:j])
 
-        for i in range(j, len(nums)):
-            sum += nums[i] - nums[i-j]
-            res = max(res, sum)
+        for i, _ in enumerate(nums[j:], start=j):
+            sum_value += nums[i] - nums[i-j]
+            res = max(res, sum_value)
 
     return res
 
