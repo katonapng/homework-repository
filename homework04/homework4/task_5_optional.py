@@ -19,21 +19,20 @@ Definition of done:
 * https://en.wikipedia.org/wiki/Fizz_buzz
 ** https://www.youtube.com/watch?v=NSzsYWckGd4
 """
-from math import ceil
+from itertools import cycle
 from typing import Generator
 
 
 class FizzBuzz():
     def __init__(self, n) -> None:
-        self.fizz = (['']*2 + ['fizz'])*(ceil(n/3)) + ['']
-        self.buzz = (['']*4 + ['buzz'])*(ceil(n/5))
+        self.fizz = cycle(('', '', 'fizz'))
+        self.buzz = cycle(('', '', '', '', 'buzz'))
         self.numbers = [str(i) for i in range(1, n + 1)]
 
 
 def fizzbuzz_generator(n: int, fb: FizzBuzz):
     for i in range(0, n):
-        yield fb.fizz[i] + fb.buzz[i] if fb.buzz[i] + fb.fizz[i] \
-              else fb.numbers[i]
+        yield next(fb.fizz) + next(fb.buzz) or str(fb.numbers[i])
 
 
 def fizzbuzz(n: int) -> Generator[str, None, None]:
@@ -59,6 +58,5 @@ def fizzbuzz(n: int) -> Generator[str, None, None]:
     """
     if not isinstance(n, int):
         raise ValueError("n must be an integer")
-    fb_class = FizzBuzz(n)
-    fb_generator = fizzbuzz_generator(n, fb_class)
-    return fb_generator
+    fb = FizzBuzz(n)
+    return fizzbuzz_generator(n, fb)
