@@ -5,7 +5,7 @@ from httpretty import HTTPretty, httprettified
 
 @httprettified
 def test_positive_case():
-    """Testing positive case"""
+    """Testing positive case """
     HTTPretty.register_uri(HTTPretty.GET,  "https://my_example.com/",
                            body="i apologize for anything i might have done. \
                                 i was not myself. said Rhy. \
