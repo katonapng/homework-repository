@@ -1,4 +1,5 @@
 import pytest
+
 from homework6.oop_2 import DeadlineError, Student, Teacher
 
 
