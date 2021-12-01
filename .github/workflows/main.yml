@@ -61,4 +61,12 @@ jobs:
           flake8 .
           isort --check .
           py.test tests
+      - name: Run script homework7
+        working-directory: ./homework07
+        run: |
+          pip install flake8 isort pytest
+          ls -la
+          flake8 .
+          isort --check .
+          py.test tests
 
