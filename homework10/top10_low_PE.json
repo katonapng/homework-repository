@@ -1,0 +1,72 @@
+[
+    {
+        "Year_growth": 35.57,
+        "Rubles_value": 8672.97,
+        "Category": "Stock  CVX ",
+        "P/E Ratio": -427.45,
+        "Profit": 35.45
+    },
+    {
+        "Year_growth": 169.81,
+        "Rubles_value": 3255.93,
+        "Category": "Stock  DVN ",
+        "P/E Ratio": -167.13,
+        "Profit": 30.459999999999997
+    },
+    {
+        "Year_growth": 46.04,
+        "Rubles_value": 4508.22,
+        "Category": "Stock  XOM ",
+        "P/E Ratio": -125.36,
+        "Profit": 25.409999999999997
+    },
+    {
+        "Year_growth": 3.24,
+        "Rubles_value": 5379.69,
+        "Category": "Stock  PSX ",
+        "P/E Ratio": -76.53,
+        "Profit": 31.140000000000008
+    },
+    {
+        "Year_growth": -16.56,
+        "Rubles_value": 5357.72,
+        "Category": "Stock  INCY ",
+        "P/E Ratio": -63.09,
+        "Profit": 39.56
+    },
+    {
+        "Year_growth": 92.85,
+        "Rubles_value": 17626.43,
+        "Category": "Stock  MRNA ",
+        "P/E Ratio": -59.95,
+        "Profit": 394.51
+    },
+    {
+        "Year_growth": 4.13,
+        "Rubles_value": 7647.71,
+        "Category": "Stock  PVH ",
+        "P/E Ratio": -44.03,
+        "Profit": 46.63000000000001
+    },
+    {
+        "Year_growth": 77.48,
+        "Rubles_value": 5370.9,
+        "Category": "Stock  COP ",
+        "P/E Ratio": -40.25,
+        "Profit": 39.2
+    },
+    {
+        "Year_growth": -35.25,
+        "Rubles_value": 2779.19,
+        "Category": "Stock  LVS ",
+        "P/E Ratio": -27.22,
+        "Profit": 32.99999999999999
+    },
+    {
+        "Year_growth": 36.68,
+        "Rubles_value": 5518.1,
+        "Category": "Stock  HES ",
+        "P/E Ratio": -17.79,
+        "Profit": 40.6
+    }
+]
