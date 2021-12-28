@@ -85,3 +85,11 @@ jobs:
           flake8 .
           isort --check .
           py.test tests
+      - name: Run script homework10
+        working-directory: ./homework10
+        run: |
+          pip install flake8 isort pytest aiohttp
+          ls -la
+          flake8 .
+          isort --check .
+          py.test tests
