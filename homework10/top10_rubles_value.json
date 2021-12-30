@@ -1,0 +1,72 @@
+[
+    {
+        "Year_growth": 29.5,
+        "Rubles_value": 67899.35,
+        "Category": "Stock  BLK ",
+        "P/E Ratio": 20.99,
+        "Profit": 302.72
+    },
+    {
+        "Year_growth": 56.18,
+        "Rubles_value": 80176.11,
+        "Category": "Stock  TSLA ",
+        "P/E Ratio": 299.31,
+        "Profit": 704.0000000000001
+    },
+    {
+        "Year_growth": 42.5,
+        "Rubles_value": 122229.37,
+        "Category": "Stock  MTD ",
+        "P/E Ratio": 43.78,
+        "Profit": 649.6800000000001
+    },
+    {
+        "Year_growth": 23.58,
+        "Rubles_value": 129365.92,
+        "Category": "Stock  CMG ",
+        "P/E Ratio": 129.05,
+        "Profit": 702.28
+    },
+    {
+        "Year_growth": 69.44,
+        "Rubles_value": 150569.04,
+        "Category": "Stock  AZO ",
+        "P/E Ratio": 16.27,
+        "Profit": 958.0699999999997
+    },
+    {
+        "Year_growth": 13.53,
+        "Rubles_value": 175868.81,
+        "Category": "Stock  BKNG ",
+        "P/E Ratio": 460.92,
+        "Profit": 826.56
+    },
+    {
+        "Year_growth": 69.65,
+        "Rubles_value": 215050.61,
+        "Category": "Stock  GOOG ",
+        "P/E Ratio": 30.01,
+        "Profit": 1337.33
+    },
+    {
+        "Year_growth": 69.44,
+        "Rubles_value": 215393.34,
+        "Category": "Stock  GOOGL ",
+        "P/E Ratio": 30.0,
+        "Profit": 1322.72
+    },
+    {
+        "Year_growth": 7.39,
+        "Rubles_value": 251188.85,
+        "Category": "Stock  AMZN ",
+        "P/E Ratio": 79.54,
+        "Profit": 892.0799999999999
+    },
+    {
+        "Year_growth": 39.93,
+        "Rubles_value": 429840.51,
+        "Category": "Stock  NVR ",
+        "P/E Ratio": 17.87,
+        "Profit": 2088.9999999999995
+    }
+]

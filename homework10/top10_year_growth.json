@@ -1,0 +1,72 @@
+[
+    {
+        "Year_growth": 95.13,
+        "Rubles_value": 5430.22,
+        "Category": "Stock  CF ",
+        "P/E Ratio": 24.94,
+        "Profit": 38.06999999999999
+    },
+    {
+        "Year_growth": 106.62,
+        "Rubles_value": 24401.93,
+        "Category": "Stock  IT ",
+        "P/E Ratio": 32.29,
+        "Profit": 219.26
+    },
+    {
+        "Year_growth": 116.15,
+        "Rubles_value": 8319.99,
+        "Category": "Stock  NUE ",
+        "P/E Ratio": 15.99,
+        "Profit": 80.87
+    },
+    {
+        "Year_growth": 121.11,
+        "Rubles_value": 8070.27,
+        "Category": "Stock  FANG ",
+        "P/E Ratio": 15.58,
+        "Profit": 71.50999999999999
+    },
+    {
+        "Year_growth": 124.15,
+        "Rubles_value": 1523.98,
+        "Category": "Stock  F ",
+        "P/E Ratio": 21.51,
+        "Profit": 13.06
+    },
+    {
+        "Year_growth": 125.99,
+        "Rubles_value": 22207.88,
+        "Category": "Stock  NVDA ",
+        "P/E Ratio": 51.8,
+        "Profit": 230.69
+    },
+    {
+        "Year_growth": 131.74,
+        "Rubles_value": 26784.2,
+        "Category": "Stock  FTNT ",
+        "P/E Ratio": 43.03,
+        "Profit": 232.68
+    },
+    {
+        "Year_growth": 135.36,
+        "Rubles_value": 1211.27,
+        "Category": "Stock  MRO ",
+        "P/E Ratio": -5.6,
+        "Profit": 11.079999999999998
+    },
+    {
+        "Year_growth": 144.13,
+        "Rubles_value": 5054.53,
+        "Category": "Stock  BBWI ",
+        "P/E Ratio": 14.17,
+        "Profit": null
+    },
+    {
+        "Year_growth": 169.81,
+        "Rubles_value": 3255.93,
+        "Category": "Stock  DVN ",
+        "P/E Ratio": -167.13,
+        "Profit": 30.459999999999997
+    }
+]
