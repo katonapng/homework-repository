@@ -100,3 +100,10 @@ jobs:
           flake8 .
           isort --check .
           py.test tests
+      - name: Run script homework12
+        working-directory: ./homework12
+        run: |
+          pip install flake8 isort 
+          ls -la
+          flake8 .
+          isort --check .
